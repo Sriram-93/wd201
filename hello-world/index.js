@@ -1,5 +1,9 @@
-const hello = () => {
-  console.log("Hello Node.jsss!");
+
+const hello = "Hi Welcome!";
+ // eslint-disable-next-line no-undef
+ returnhello= () => {
+  console.log(hello);
 };
 
-hello();
+// eslint-disable-next-line no-undef
+returnhello();
