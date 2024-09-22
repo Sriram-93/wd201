@@ -1,0 +1,16 @@
+str='hello'
+str.
+
+
+exit
+"my name is sri"
+'what is your name:{_}'
+what is your : {_}
+`what is your name: {_}`
+`what is your name: ${_}`
+"Sriram"
+"my name is : ${_}"
+"sriram"
+`my name is: ${_}`
+arr = [1,5,7]
+str="Hi,iam sri"
