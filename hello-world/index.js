@@ -1,9 +1,9 @@
-
-const hello = "Hi Welcome!";
- // eslint-disable-next-line no-undef
- returnhello= () => {
-  console.log(hello);
-};
-
-// eslint-disable-next-line no-undef
-returnhello();
+const fs = require('fs');
+fs.writeFile(
+  "sample.txt",
+  "Hello World. Welcome to Node.js File System module.",
+  (err) => {
+    if (err) throw err;
+    console.log("File created!");
+  } 
+);
